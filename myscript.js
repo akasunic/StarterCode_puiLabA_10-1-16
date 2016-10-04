@@ -26,7 +26,7 @@ $('.panel').append($('<h3>').append('Click on a person to make their wishes come
 
 $('li').click(function(){
     var person = $(this).attr('id');
-    var item = $(this); //storing in a variable to make it easier later
+    var $item = $(this); //storing in a variable to make it easier later
     console.log(person);
     switch(person){
         case "sis":
